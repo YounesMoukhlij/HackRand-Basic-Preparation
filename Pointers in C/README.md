@@ -1,1 +1,2 @@
-# HackRand-Basic-Preparation
+# Pointer in C
+
