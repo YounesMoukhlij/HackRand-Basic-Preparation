@@ -13,33 +13,35 @@ int main()
     
     for (int i = a; i <= b; i++)
     {
-        if (i < 0x10)
+        if (i <= 0x9)
         {
             if (i == 0x1)
-                printf("one\n");
+                printf("one");
             else if (i == 0x2)
-                printf("two\n");
+                printf("two");
             else if (i == 0x3)
-                printf("three\n");
+                printf("three");
             else if (i == 0x4)
-                printf("four\n");
+                printf("four");
             else if (i == 0x5)
-                printf("five\n");
+                printf("five");
             else if (i == 0x6)
-                printf("six\n");
+                printf("six");
             else if (i == 0x7)
-                printf("seven\n");
+                printf("seven");
             else if (i == 0x8)
-                printf("eight\n");
+                printf("eight");
             else if (i == 0x9)
-                printf("nine\n");
+                printf("nine");
+        	printf("\n");
         }
-        else if (i > 9)
+        if (i > 9)
         {
             if (i % 2 == 0)
-                printf("even\n");
+                printf("even");
             else
-                printf("odd\n");
+                printf("odd");
+        	printf("\n");
         }
     }
 
