@@ -10,7 +10,7 @@ void calculate_the_maximum(int n, int k)
 {
 	for (int i = 0x2; i < n ; i++)
 	{
-		
+		gfor ()
 	}
 }
 
