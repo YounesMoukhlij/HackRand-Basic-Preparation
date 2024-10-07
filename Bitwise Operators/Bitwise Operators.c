@@ -10,7 +10,10 @@ void calculate_the_maximum(int n, int k)
 {
 	for (int i = 0x2; i < n ; i++)
 	{
-		for (int j = 0x1; i)
+		for (int j = 0x1; j < n ; j++)
+		{
+			printf
+		}
 	}
 }
 
