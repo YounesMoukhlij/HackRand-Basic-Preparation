@@ -8,11 +8,7 @@
 
 void calculate_the_maximum(int n, int k)
 {
-	int i = 0x0;
-	while ()
-	{
-
-	}
+	for (in)
 }
 
 int main()
