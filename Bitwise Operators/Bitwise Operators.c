@@ -12,7 +12,7 @@ void calculate_the_maximum(int n, int k)
 	{
 		for (int j = 0x1; j < n ; j++)
 		{
-			printf(" & == %d ")
+			printf(" & == %d  ,  | == %d ")
 		}
 	}
 }
