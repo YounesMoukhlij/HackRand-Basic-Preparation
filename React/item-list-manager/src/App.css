@@ -1,0 +1,42 @@
+
+
+.app
+{
+  border: 10px solid green;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  height:  300px;
+  width:  400px;
+  flex-direction:  column;
+}
+
+.title
+{
+  font-size: 3rem;
+
+}
+
+button {
+  color: white;
+  background-color: green;
+  border-radius: 10%;
+
+  cursor:  pointer;
+}
+
+
+.item-list
+{
+  display:  flex;
+  gap: 10px;
+}
+
+
+input
+{
+  height: 40px;
+
+}
