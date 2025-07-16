@@ -12,6 +12,8 @@ def swap_case(s):
         i += 1
     return result
 
+
+
 if __name__ == '__main__':
     s = "HackerRank.com presents \"Pythonist 2\"."
     result = swap_case(s)
