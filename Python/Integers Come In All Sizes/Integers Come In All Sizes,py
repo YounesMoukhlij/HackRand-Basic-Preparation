@@ -1,0 +1,10 @@
+
+if __name__ == '__main__':
+    a = int(input())
+    b = int(input())
+    c = int(input())
+    d = int(input())
+
+    r = a ** b
+    s = c ** d
+    print(r + s)
