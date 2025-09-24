@@ -1,0 +1,78 @@
+
+### **Lucky Numbers in a Matrix**
+
+You are given an `m x n` matrix of distinct integers.
+
+A **lucky number** is an element of the matrix that is **the minimum in its row** and at the same time **the maximum in its column**.
+
+Your task is to find all lucky numbers in the matrix.
+
+---
+
+### **Input Format**
+
+* The first line contains two integers `m` and `n` — the number of rows and columns.
+* The next `m` lines each contain `n` integers, representing the matrix.
+
+---
+
+### **Constraints**
+
+* `1 <= m, n <= 50`
+* All elements are distinct and fit in a 32-bit integer.
+
+---
+
+### **Output Format**
+
+* Print all the lucky numbers separated by a space.
+* If there are no lucky numbers, print nothing (or an empty line).
+
+---
+
+### **Example 1**
+
+**Input**
+
+```
+3 3
+3 7 8
+9 11 13
+15 16 17
+```
+
+**Output**
+
+```
+15
+```
+
+**Explanation**
+
+* Row 1 min = 3, col max = no.
+* Row 2 min = 9, col max = no.
+* Row 3 min = 15, and it’s also the maximum of its column → ✅ lucky number.
+
+---
+
+### **Example 2**
+
+**Input**
+
+```
+2 2
+1 10
+5 7
+```
+
+**Output**
+
+```
+7
+```
+
+---
+
+✅ That’s the exact **problem subject**.
+
+Do you want me to also give you a **short Python/C++ solution** for this, like they do on HackerRank editorials?
